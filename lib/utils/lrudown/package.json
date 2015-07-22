@@ -1,6 +1,6 @@
 {
-  "name": "cf-abacus-aggregation-db",
-  "description": "Naming and partitioning scheme for the aggregation dbs",
+  "name": "cf-abacus-lrudown",
+  "description": "A Leveldown adapter for the popular Node LRU module",
   "license": "Apache-2.0",
   "readme": "README.md",
   "version": "0.0.1",
@@ -11,13 +11,16 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "cf-abacus-dbclient": "file:../../utils/dbclient",
-    "cf-abacus-lrudown": "file:../../utils/lrudown",
-    "cf-abacus-partition": "file:../../utils/partition"
+    "abstract-leveldown": "^2.4.0",
+    "cf-abacus-debug": "file:../debug",
+    "lru-cache": "^2.6.5",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "cf-abacus-eslint": "file:../../../tools/eslint",
-    "cf-abacus-mocha": "file:../../../tools/mocha"
+    "cf-abacus-mocha": "file:../../../tools/mocha",
+    "levelup": "~0.18.4",
+    "pouchdb": "3.6.0"
   },
   "engines": {
     "node": ">=0.10.0",
