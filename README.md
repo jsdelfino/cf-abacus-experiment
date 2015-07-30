@@ -3,7 +3,7 @@ CF-Abacus
 
 The Abacus Cloud service usage metering and aggregation project.
 
-[![Build Status](https://travis-ci.org/jsdelfino/cf-abacus-develop.svg)](https://travis-ci.org/jsdelfino/cf-abacus-develop) [![Coverage Status](https://coveralls.io/repos/jsdelfino/cf-abacus-develop/badge.svg?branch=master&service=github)](https://coveralls.io/github/jsdelfino/cf-abacus-develop?branch=master)
+[![Build Status](https://travis-ci.org/jsdelfino/cf-abacus-experiment.svg)](https://travis-ci.org/jsdelfino/cf-abacus-experiment) [![Coverage Status](https://coveralls.io/repos/jsdelfino/cf-abacus-experiment/badge.svg?branch=master&service=github)](https://coveralls.io/github/jsdelfino/cf-abacus-experiment?branch=master)
 
 Overview
 ---
