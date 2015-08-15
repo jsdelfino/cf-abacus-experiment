@@ -42,6 +42,7 @@
     "test": "foreach abacus node_modules/:name npm test && coverage",
     "coveralls": "cat .coverage/lcov.info | coveralls",
     "codeclimate": "cat .coverage/lcov.info | codeclimate-test-reporter",
+    "dupcode": "jsinspect",
     "doc": "cat README.md | mddoc >README.html",
     "start": "bin/start",
     "stop": "bin/stop",
