@@ -306,8 +306,9 @@ describe('abacus-perf-test', () => {
           console.log('Processed %d usage docs for org%d',
             processed(val), o + 1);
           try {
-            expect(omit(val.body, ['id', 'start', 'end'])).to.deep.
-              equal(report(o, resourceInstances, usage));
+            expect(omit(val.body,
+              ['id', 'start', 'end', 'watermark'])).to.deep.equal(
+                report(o, resourceInstances, usage));
             console.log('\n', util.inspect(val.body, { depth: 10 }), '\n');
             done();
           }

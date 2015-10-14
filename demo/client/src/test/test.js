@@ -340,7 +340,7 @@ describe('abacus-demo-client', () => {
             console.log('Processed %d usage docs', processed(val));
             try {
               expect(omit(val.body,
-                ['id', 'start', 'end'])).to.deep.equal(report);
+                ['id', 'start', 'end', 'watermark'])).to.deep.equal(report);
               console.log('\n', util.inspect(val.body, {
                 depth: 10
               }), '\n');
